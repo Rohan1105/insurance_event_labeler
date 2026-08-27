@@ -1,0 +1,13 @@
+# No third-party dependencies.
+#
+# This project runs on the Python standard library alone (3.10+):
+#   csv, json, re, os, time, argparse, dataclasses, typing   -- core logic
+#   urllib.request                                           -- Groq HTTP calls
+#
+# That is a decision, not an oversight. With 40 rows and four metric definitions of
+# four lines each, importing scikit-learn would have hidden the one choice that
+# actually matters -- that YES is the positive class -- behind a library default.
+# Hand-rolling it kept that explicit and kept the repo runnable with a bare
+# interpreter. See README.md, "Key decisions and trade-offs".
+#
+# `pip install -r requirements.txt` is a no-op and is not required to run anything.

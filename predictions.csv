@@ -1,0 +1,41 @@
+id,label,confidence,justification,route
+01,YES,HIGH,,rule:event-with-impact
+02,NO,HIGH,,rule:non-event-topic
+03,YES,HIGH,Grounding of a vessel with salvage tugs dispatched constitutes an active physical emergency,llm
+04,NO,HIGH,,rule:future-framing
+05,YES,HIGH,,rule:event-with-impact
+06,NO,HIGH,,rule:future-framing
+07,NO,HIGH,,rule:future-framing
+08,NO,HIGH,,rule:non-physical-cause
+09,YES,LOW,"Single-source report of a mine collapse constitutes a physical event with damage, though details are unconfirmed",llm
+10,NO,HIGH,,rule:non-event-topic
+11,YES,HIGH,Confirmed earthquake with tsunami advisory and damage assessments indicates an active physical event,llm
+12,NO,HIGH,"The snippet discusses funding, not a specific physical event with damage or emergency response.",llm
+13,YES,HIGH,,rule:event-with-impact
+14,NO,HIGH,,rule:future-framing
+15,YES,LOW,Precautionary pipeline shutdown after pressure anomaly constitutes an active emergency response,llm
+16,YES,HIGH,,rule:event-with-impact
+17,NO,HIGH,,rule:non-event-topic
+18,NO,HIGH,,rule:future-framing
+19,NO,HIGH,,rule:non-physical-cause
+20,NO,HIGH,,rule:non-physical-cause
+21,YES,HIGH,"Heavy snowfall caused Alpine pass closures, an active emergency response despite no reported injuries",llm
+22,YES,HIGH,,rule:event-with-impact
+23,NO,HIGH,,rule:future-framing
+24,NO,HIGH,,rule:routine
+25,YES,LOW,Drought with imposed irrigation restrictions constitutes an active consequence,llm
+26,YES,LOW,"The ferry lost power and required towing, constituting an active emergency response",llm
+27,YES,HIGH,,rule:event-with-impact
+28,NO,HIGH,,rule:future-framing
+29,YES,LOW,Gas explosion caused damage and emergency services are responding,llm
+30,NO,HIGH,,rule:non-physical-cause
+31,YES,HIGH,,rule:event-with-impact
+32,NO,HIGH,"The snippet describes research, not an actual flood event with damage or response",llm
+33,YES,LOW,Dam cracks and village evacuations constitute an active emergency response,llm
+34,NO,HIGH,,rule:non-event-topic
+35,YES,HIGH,,rule:event-with-impact
+36,NO,HIGH,,rule:non-event-topic
+37,YES,HIGH,,rule:event-with-impact
+38,NO,HIGH,,rule:routine
+39,YES,LOW,"Flash floods caused fatalities and building damage, indicating an active physical event",llm
+40,NO,HIGH,,rule:future-framing

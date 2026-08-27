@@ -1,0 +1,41 @@
+id,label,confidence,justification
+01,YES,HIGH,
+02,NO,HIGH,
+03,YES,HIGH,
+04,NO,HIGH,
+05,YES,HIGH,
+06,NO,HIGH,
+07,NO,HIGH,
+08,NO,HIGH,
+09,NO,LOW,"'Partial collapse' is a severity judgement made by one untrained observer who may have over-read a rockfall or minor slippage, and the operator has not confirmed; the event description itself is unverified, not just the casualty count. LOW because corroboration would flip it to YES."
+10,NO,HIGH,
+11,YES,LOW,"Earthquake is confirmed but the tsunami advisory was lifted and damage assessments are still under way; LOW because the loss may prove negligible."
+12,NO,HIGH,
+13,YES,HIGH,
+14,NO,HIGH,
+15,YES,LOW,"Precautionary shutdown with no confirmed leak; YES because the response signals a live physical anomaly, LOW because the loss may be nil."
+16,YES,HIGH,
+17,NO,HIGH,
+18,YES,LOW,"Emergency landing on a fire warning with no injuries and no confirmed damage; YES as an active emergency response, LOW because the warning may prove spurious."
+19,NO,HIGH,
+20,NO,LOW,"Real interruption loss but no physical damage; NO only because this feed is scoped to property/casualty rather than cyber."
+21,NO,HIGH,
+22,YES,HIGH,
+23,NO,HIGH,
+24,NO,HIGH,
+25,YES,LOW,"Long-onset condition rather than an event; YES only because irrigation restrictions are an active escalating consequence already in force."
+26,YES,LOW,"Machinery failure requiring a tow - the breakdown itself is an insurable marine machinery claim; LOW because no damage or injury is stated."
+27,YES,HIGH,
+28,NO,HIGH,
+29,YES,HIGH,
+30,NO,HIGH,
+31,YES,HIGH,
+32,NO,HIGH,
+33,YES,LOW,"Structural cracks and precautionary evacuation with no failure yet; YES per the precautionary-response rule, and the dam's own repair cost is a live exposure; LOW because damage is unquantified."
+34,NO,HIGH,
+35,YES,HIGH,
+36,NO,HIGH,
+37,YES,HIGH,
+38,NO,HIGH,
+39,YES,LOW,"Fatalities and building damage reported by multiple local sources so the event is corroborated; LOW because the details remain unverified."
+40,NO,HIGH,
