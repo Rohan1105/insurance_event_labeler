@@ -158,6 +158,28 @@ is self-contradictory about is the most interesting single result in the exercis
 **Stdlib `urllib` instead of the Groq SDK or `requests`.** One HTTP POST with a JSON body. A
 dependency to save six lines was not worth making the repo un-runnable without a `pip install`.
 
+### Where the time went
+
+About **5 hours**, inside the 4–6 hour budget.
+
+| Time | What |
+|---|---|
+| ~45 min | Reading the brief, drafting the rubric, deciding the awkward-case rulings before writing any code |
+| ~60 min | Labelling all 40 snippets by hand, then a second pass over the boundary cases |
+| ~75 min | Classifier and Groq client |
+| ~45 min | Evaluation tooling and the 11 tests |
+| ~30 min | Debugging the API — Cloudflare 403, model availability, the rate limit |
+| ~55 min | Reading the results, the three disagreement cases, and the write-ups |
+
+Two things are worth noting about that split. **The rubric came first, before any code**, so the
+labels are an application of stated rules rather than a rationalisation of what a classifier
+happened to produce. And **the evaluation and write-up took roughly as long as the classifier
+did**, which matches where the brief says the marks are: "we are not scoring model
+sophistication, we are scoring what you do next."
+
+The 30 minutes of API debugging was unplanned and came out of the time I would otherwise have
+spent on prompt iteration — which is why the system prompt is a single un-tuned draft.
+
 ### What I cut, and why
 
 - **No embeddings / fine-tuning.** The brief says sophistication is not scored, and with 40
